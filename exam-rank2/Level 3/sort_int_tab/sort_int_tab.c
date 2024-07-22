@@ -1,6 +1,6 @@
-void    sort_int_tab(int *tab, unsigned int size)
+void    sort_int_tab(int *tab, int size)
 {
-    unsigned int i = 0;
+    int i = 0;
     int swap;
     while(i < size - 1)
     {
